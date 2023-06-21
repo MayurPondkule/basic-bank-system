@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0dede;
+}
+
+/* Navbar CSS */
+.bg-light {
+    background-color: #ece1e1;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+}
+
+.nav-link {
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #f3f1f1;
+}
+
+.my-info {
+    padding: 2rem 5rem;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: #6ebc8c!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    
+    border-radius: 30px;
+    border: none;
+    animation: pulse 2s infinite;
+}
+
+.btn-info:hover {
+    background-color: #ff3366!important;
+    animation: shake 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
